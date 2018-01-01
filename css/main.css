@@ -30,8 +30,6 @@ h1 {
   font-size: 1.5rem;
   text-align: center;
   margin: 0 auto .5rem;
-
-
 }
 
 .logo-left {
@@ -73,7 +71,8 @@ a:hover {
 }
 
 main {
-  margin: 0 1rem;
+  padding: 0 1rem;
+  background-color: #BDC3C7;
 }
 
 figure {
@@ -95,4 +94,8 @@ h3 {
 
 p {
   margin: 0;
+}
+
+.social-media {
+  width: 45px;
 }
