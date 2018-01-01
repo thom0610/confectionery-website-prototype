@@ -34,13 +34,17 @@ h1 {
   font-size: 1.5rem;
 }
 
+.intro h2{
+  margin: 0;
+}
+
 .logo-left {
-  width: 45px;
+  width: 60px;
   float: left;
 }
 
 .logo-right {
-  width: 45px;
+  width: 60px;
   float: right;
 }
 
@@ -68,14 +72,14 @@ header nav a {
   font-size: .75rem;
 }
 
-a:hover {
+header nav a:hover {
   background-color: #fff;
   margin: 0 auto;
   color: #000;
 }
 
 main {
-  padding: 0 1rem;
+  padding: 1rem;
   background-color: #BDC3C7;
 }
 
@@ -88,8 +92,22 @@ figure {
   margin: 0;
 }
 
+.link-card {
+  margin: 0;
+  display: block;
+  background-color: #FFE3EF;
+  color: #000;
+  font-size: 1.125rem;
+  border-width: 3px;
+  padding: 1em;
+  border: 3px solid #000;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
 .workshop-img {
-  width: 275px;
+  width: 200px;
   margin: .5rem 0;
 }
 
@@ -105,6 +123,22 @@ h3 {
 
 p {
   margin: 0;
+  padding-bottom: 1rem;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: .4em .75em .5em;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
 }
 
 footer {
