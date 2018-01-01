@@ -149,10 +149,13 @@ footer {
 footer p {
   color: #fff;
   text-align: center;
+  padding-bottom: .25rem;
 }
 
 .social-media {
+  margin: 0;
   width: 25px;
+  display: inline-block;
 }
 
 footer img:hover {
