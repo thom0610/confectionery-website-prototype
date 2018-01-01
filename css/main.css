@@ -96,6 +96,15 @@ p {
   margin: 0;
 }
 
+footer {
+  background-color: #000;
+  margin: 0;
+}
+
+footer p {
+  color: #fff;
+}
+
 .social-media {
   width: 45px;
 }
