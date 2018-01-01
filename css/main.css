@@ -1,3 +1,4 @@
+cssviewport
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -16,7 +17,8 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
- body {
+
+body {
    margin: 0;
  }
 
@@ -31,10 +33,16 @@ header {
 
 h1 {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  text-shadow: 2px -2px 4px #fff;
 }
 
-.intro h2{
+h2 {
+  color: #ef0472;
+  margin-bottom: 0;
+}
+
+.intro h2 {
   margin: 0;
 }
 
@@ -59,17 +67,18 @@ nav ul {
 header nav li {
   display: inline-block;
   font-size: 1rem;
+
 }
 
 header nav a {
-  text-decoration: none;
-  background-color: #000;
-  border-radius: 5px;
-  color: #fff;
   display: inline-block;
+  width: 8em;
   padding: .5em .75em;
-  border-radius: 4px #fff;
-  font-size: .75rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: .8rem;
 }
 
 header nav a:hover {
@@ -86,6 +95,7 @@ main {
 section ul {
   margin: 0;
   padding: 0 1rem;
+  list-style-type: circle;
 }
 
 figure {
@@ -109,11 +119,6 @@ figure {
 .workshop-img {
   width: 200px;
   margin: .5rem 0;
-}
-
-h2 {
-  margin-bottom: 0;
-  color: #ef0472
 }
 
 h3 {
