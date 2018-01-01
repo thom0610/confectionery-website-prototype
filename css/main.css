@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.5 sans-serif;
+  font: normal 100%/1.3 sans-serif;
 }
 
 *, *::before, *::after {
@@ -22,6 +22,7 @@ html {
 
 header {
   background-color: #ef0472;
+  padding: .5em;
 }
 
 h1 {
