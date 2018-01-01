@@ -103,7 +103,7 @@ figure {
 }
 
 .link-card {
-  margin: 0;
+  margin: .5em 0;
   display: block;
   background-color: #FFE3EF;
   color: #000;
@@ -117,8 +117,11 @@ figure {
 }
 
 .workshop-img {
-  width: 200px;
+  width: 375px;
+  height: 275px;
   margin: .5rem 0;
+  border: 5px solid #BDC3C7;
+  border-radius: 8px;
 }
 
 h3 {
