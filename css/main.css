@@ -22,18 +22,21 @@ html {
 
 header {
   background-color: #ef0472;
-  padding: .5em;
+  padding-top: .5em;
+}
+
+.header {
+  text-align: center;
 }
 
 h1 {
   display: inline-block;
   font-size: 1.5rem;
-  text-align: center;
-  margin: 0 auto .5rem;
 }
 
 .logo-left {
   width: 45px;
+  float: left;
 }
 
 .logo-right {
@@ -46,6 +49,7 @@ nav ul {
   padding: 0;
   padding-bottom: .5em;
   margin: 0;
+  text-align: center;
 }
 
 header nav li {
@@ -75,6 +79,11 @@ main {
   background-color: #BDC3C7;
 }
 
+section ul {
+  margin: 0;
+  padding: 0 1rem;
+}
+
 figure {
   margin: 0;
 }
@@ -86,10 +95,12 @@ figure {
 
 h2 {
   margin-bottom: 0;
+  color: #ef0472
 }
 
 h3 {
   margin: 0;
+  color: #ef0472
 }
 
 p {
@@ -103,8 +114,13 @@ footer {
 
 footer p {
   color: #fff;
+  text-align: center;
 }
 
 .social-media {
-  width: 45px;
+  width: 25px;
+}
+
+footer img:hover {
+  width: 30px;
 }
