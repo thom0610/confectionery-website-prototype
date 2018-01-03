@@ -33,7 +33,7 @@ header {
 
 h1 {
   display: inline-block;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   text-shadow: 2px -2px 4px #fff;
 }
 
@@ -72,13 +72,13 @@ header nav li {
 
 header nav a {
   display: inline-block;
-  width: 8em;
+  width: 7em;
   padding: .5em .75em;
   background-color: #000;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  font-size: .8rem;
+  font-size: .5rem;
 }
 
 header nav a:hover {
@@ -89,7 +89,7 @@ header nav a:hover {
 
 main {
   padding: 1rem;
-  background-color: #BDC3C7;
+  background-color: #bdc3c7;
 }
 
 section ul {
@@ -102,10 +102,14 @@ figure {
   margin: 0;
 }
 
+.img-flex {
+  width: 100%;
+}
+
 .link-card {
   margin: .5em 0;
   display: block;
-  background-color: #FFE3EF;
+  background-color: #ffe3ef;
   color: #000;
   font-size: 1.125rem;
   border-width: 3px;
@@ -117,10 +121,8 @@ figure {
 }
 
 .workshop-img {
-  width: 375px;
-  height: 275px;
   margin: .5rem 0;
-  border: 5px solid #BDC3C7;
+  border: 5px solid #bdc3c7;
   border-radius: 8px;
 }
 
@@ -152,6 +154,7 @@ p {
 footer {
   background-color: #000;
   margin: 0;
+  position: relative;
 }
 
 footer p {
@@ -168,4 +171,15 @@ footer p {
 
 footer img:hover {
   width: 30px;
+}
+
+.contact-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.social-media {
+  width: 25%;
+  display: inline-block;
 }
