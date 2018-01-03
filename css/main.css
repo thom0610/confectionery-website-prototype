@@ -19,8 +19,8 @@ html {
 }
 
 body {
-   margin: 0;
- }
+  margin: 0;
+}
 
 header {
   background-color: #ef0472;
@@ -128,7 +128,7 @@ figure {
 
 h3 {
   margin: 0;
-  color: #ef0472
+  color: #ef0472;
 }
 
 p {
@@ -165,7 +165,7 @@ footer p {
 
 .social-media {
   margin: 0;
-  width: 25px;
+  width: 25%;
   display: inline-block;
 }
 
@@ -177,9 +177,4 @@ footer img:hover {
   position: absolute;
   right: 0;
   top: 0;
-}
-
-.social-media {
-  width: 25%;
-  display: inline-block;
 }
