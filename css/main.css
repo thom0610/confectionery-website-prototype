@@ -41,6 +41,11 @@ h1 {
   text-shadow: 2px -2px 4px #fff;
 }
 
+h2 {
+  color: #ef0472;
+  margin-bottom: 0;
+}
+
 .intro h2 {
   margin: 0;
 }
@@ -110,7 +115,7 @@ main {
   max-width: 20em;
   padding: 1rem;
   font-weight: bold;
-  background-color: rgba(239,4,114,.5);
+  background-color: rgba(239, 4, 114, .5);
   color: #fff;
 }
 
@@ -118,11 +123,6 @@ main {
   margin: 0;
   text-align: center;
   color: #fff;
-}
-
-h2 {
-  color: #ef0472;
-  margin-bottom: 0;
 }
 
 section ul {
@@ -133,10 +133,6 @@ section ul {
 
 figure {
   margin: 0;
-}
-
-.img-flex {
-  width: 100%;
 }
 
 .link-card {
@@ -201,8 +197,9 @@ footer p {
   width: 100%;
   display: inline-block;
 }
- .sm-img {
-   width: 3em;
+
+.sm-img {
+  width: 3em;
 }
 
 footer img:hover {
@@ -228,14 +225,14 @@ footer img:hover {
 
   html {
     font-size: 110%;
-    line-height: 1.4rem;
+    line-height: 1.4;
   }
 
- .banner-text {
-   max-width: 60em;
- }
-  .banner-text p {
+  .banner-text {
+    max-width: 60em;
+  }
 
+  .banner-text p {
     margin: 0 auto;
     font-weight: normal;
     text-align: center;
@@ -276,6 +273,7 @@ footer img:hover {
 }
 
 @media only screen and (min-width: 60em) {
+
   html {
     font-size: 120%;
     line-height: 1.5;
