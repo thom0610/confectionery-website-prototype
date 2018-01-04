@@ -118,7 +118,6 @@ main {
   margin: 0;
   text-align: center;
   color: #fff;
-
 }
 
 h2 {
@@ -215,16 +214,57 @@ footer img:hover {
 }
 
 @media only screen and (min-width: 25em) {
+
   html {
     font-size: 100%;
+  }
 
-
+  h1 {
+    font-size: 2rem;
   }
 }
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4rem;
+  }
+
+ .banner-text {
+   max-width: 60em;
+ }
+  .banner-text p {
+    width: 40em;
+    margin: 0 auto;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .banner-h2 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+  }
+
+  .link-card {
+    width: 30%;
+    display: inline-block;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: .5em;
+  }
+
+  .card-wrap {
+    text-align: center;
+  }
+
+  .social-media {
+    text-align: left;
+  }
 }
+
 
 @media only screen and (min-width: 60em) {
 
