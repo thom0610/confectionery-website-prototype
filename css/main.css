@@ -26,6 +26,11 @@ header {
   padding-top: .5em;
 }
 
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
 .header {
   text-align: center;
 }
@@ -34,11 +39,6 @@ h1 {
   display: inline-block;
   font-size: 1.5rem;
   text-shadow: 2px -2px 4px #fff;
-}
-
-h2 {
-  color: #ef0472;
-  margin-bottom: 0;
 }
 
 .intro h2 {
@@ -66,7 +66,6 @@ nav ul {
 header nav li {
   display: inline-block;
   font-size: 1rem;
-
 }
 
 header nav a {
@@ -77,7 +76,10 @@ header nav a {
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
-  font-size: .5rem;
+}
+
+.button {
+  margin-bottom: .2em;
 }
 
 header nav a:hover {
@@ -89,6 +91,39 @@ header nav a:hover {
 main {
   padding: 1rem;
   background-color: #bdc3c7;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-img {
+  opacity: .4;
+}
+
+.banner-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 20em;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: rgba(239,4,114,.5);
+  color: #fff;
+}
+
+.banner-h2 {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+
+}
+
+h2 {
+  color: #ef0472;
+  margin-bottom: 0;
 }
 
 section ul {
@@ -132,7 +167,6 @@ h3 {
 
 p {
   margin: 0;
-  padding-bottom: 1rem;
 }
 
 .btn {
@@ -142,6 +176,8 @@ p {
   text-align: center;
   padding: .4em .75em .5em;
   text-decoration: none;
+  display: inline-block;
+  margin-top: .5rem;
 }
 
 .btn:hover {
@@ -153,27 +189,47 @@ p {
 footer {
   background-color: #000;
   margin: 0;
-  position: relative;
+  text-align: center;
 }
 
 footer p {
   color: #fff;
-  text-align: center;
-  padding-bottom: .25rem;
 }
 
 .social-media {
   margin: 0;
-  width: 25%;
+  margin-top: 2rem;
+  width: 100%;
   display: inline-block;
+}
+ .sm-img {
+   width: 10%;
 }
 
 footer img:hover {
   width: 30px;
 }
 
-.contact-info {
-  position: absolute;
-  right: 0;
-  top: 0;
+.email {
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 25em) {
+  html {
+    font-size: 100%;
+
+
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
+
+@media only screen and (min-width: 90em) {
+
 }
