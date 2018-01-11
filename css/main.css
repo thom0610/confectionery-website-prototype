@@ -287,6 +287,15 @@ footer img:hover {
   .logo-right,
   .logo-left {
     width: 15%;
+    max-width: 150px;
+  }
+
+  .logo-right {
+    margin-right: 5em;
+  }
+
+  .logo-left {
+    margin-left: 5em;
   }
 }
 
@@ -296,4 +305,19 @@ footer img:hover {
     font-size: 130%;
     line-height: 1.5;
   }
+
+  .logo-right,
+  .logo-left {
+    width: 15%;
+    max-width: 150px;
+  }
+
+  .logo-right {
+    margin-right: 5em;
+  }
+
+  .logo-left {
+    margin-left: 5em;
+  }
+
 }
